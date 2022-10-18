@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8cf81a7-ccc9-49a2-94d2-6c271018cee9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab9-10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servers/AirRide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servers/GroundRide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servers/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servers/VehicleName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servers/WaterRide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servers/WheelReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,7 +39,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/IdeaProjects/Lab1_2"
+    "last_opened_file_path": "D:/IdeaProjects/Lab9-10",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RunManager">
@@ -81,7 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665562895872</updated>
       <workItem from="1665562898097" duration="1365000" />
-      <workItem from="1665924145000" duration="4524000" />
+      <workItem from="1665924145000" duration="7969000" />
+      <workItem from="1666072368457" duration="988000" />
     </task>
     <servers />
   </component>
