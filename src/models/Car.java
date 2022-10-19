@@ -9,6 +9,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class Car extends Vehicle implements GroundRide, WheelReplacement, Reservation, VehicleName {
+    private Integer wheel = 4;
     public Car() {
     }
 
@@ -21,6 +22,8 @@ public class Car extends Vehicle implements GroundRide, WheelReplacement, Reserv
         System.out.println("Вы едете со скоростью " + getSpeed());
         try {
             Thread.sleep(10000);
+            wheel =(wheel-(int) (Math.random()*4+1));
+            System.out.println("Количество лопнутых колес: "+wheel);
             System.out.println("Вам нужно поменять колесо!");
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
@@ -48,7 +51,7 @@ public class Car extends Vehicle implements GroundRide, WheelReplacement, Reserv
     public void newWheel() {
         try {
             Thread.sleep(5000);
-            System.out.println("Колесто успешно заменено!");
+            System.out.println("Колесо успешно заменено!");
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
