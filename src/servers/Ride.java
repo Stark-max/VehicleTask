@@ -1,5 +1,5 @@
 package servers;
 
-public interface AirRide {
+public interface Ride {
     void ride();
 }

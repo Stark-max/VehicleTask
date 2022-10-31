@@ -1,7 +1,5 @@
-import models.Airplane;
-import models.Car;
-import models.Runner;
-import models.Train;
+
+import controllers.Runner;
 
 public class Main {
     public static void main(String[] args) {
